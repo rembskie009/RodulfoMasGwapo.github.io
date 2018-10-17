@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your Lie In April Fanbase</title>
+	<link rel="icon" type="image/ico" href="../images/88.jpg">
+	<link rel="stylesheet" href="JoinUs.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
+	<script src="js/jquery-1.6.3.min.js"></script>
+	<script src="js/jquery.skitter.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script>
+	$(document).ready(function() {
+		
+		var options = {};
+	
+		if (document.location.search) {
+			var array = document.location.search.split('=');
+			var param = array[0].replace('?', '');
+			var value = array[1];
+			
+			if (param == 'animation') {
+				options.animation = value;
+			}
+			else if (param == 'type_navigation') {
+				if (value == 'dots_preview') {
+					$('.border_box').css({'marginBottom': '40px'});
+					options['dots'] = true;
+					options['preview'] = true;
+				}
+				else {
+					options[value] = true;
+					if (value == 'dots') $('.border_box').css({'marginBottom': '40px'});
+				}
+			}
+		}
+		
+		$('.box_skitter_large').skitter(options);
+		
+		// Highlight
+		$('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+		
+	});
+	</script>
+	
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+		<img src="../images/d.png" alt="Contents" width="50%" height="100px" align="left">
+		<h4>Your Lie In April Fanbase</h4>
+		<h5>Because Music Speaks Louder Than Words</h5>
+		</div>
+		<div id="contacts">
+			<h1>Contact Us</h1>
+			<marquee><h2>Rodulfoabasolo666@yahoo.com</h2></marquee>
+		</div>
+	</div>
+	<div id="flash">
+		<div class="box_skitter box_skitter_large " style= " z-index:0;">
+				<ul>
+					<li><a href="#blindHeight"><img src="../IGOP/44.png" class="random"/></a></li>
+					<li><a href="#blindWidth"><img src="../IGOP/55.png"     class="random"/></a></li>
+					<li><a href="#blindHeight"><img src="../IGOP/33.png"  class="random"/></a></li>
+					<li><a href="#blindWidth"><img src="../IGOP/66.png"  class="random" /></a></li>
+					
+							</ul>
+			</div>
+	</div>
+	<div id="navbar">
+		<ul>
+		<li><a href="../Abasolo IGOP Html/abasolo.html">Home</a></li>
+		<li><a href="../About Us/AboutUs.html">About</a></li>
+		<li><a href="../About The Characters/AboutTheCharacters.html">About The Characters</a></li>
+		<li><a href="../Join Us/JoinUs.html">Join Us</a></li>
+		
+		</ul>
+	</div>
+
+<div id="Main-content">
+	<div class="idiot">	
+		<h1>Login Here!</h1>
+	<label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  
+  </div>
+
+
+
+
+ <div class="container">
+    <h1>Join Us And Learn to Connect The Music To your Soul.</h1>
+    <p>Your Lie In April Registration Form</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <hr>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <button type="submit" class="registerbtn">Register</button>
+  <div class="signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+ </div>
+</div>
+
+
+</div>
+</html>
+</body>
