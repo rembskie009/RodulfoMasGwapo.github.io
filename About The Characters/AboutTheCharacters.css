@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+body {
+	.background-color: red;
+	height: 3000px;
+	background-image:url("../images/ee.jpg");
+	background-size: cover;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto 0 auto;
+	border: hidden;
+}
+/*header*/
+#header {
+	height: 100px;
+	border: hidden;
+}
+#logo {
+	background-size: cover;
+	background-position: absolute;
+	height: 100px;
+	width: 50%;
+	.background-color: white;
+	float: left;
+}
+#logo h4	 {
+	color:white;
+	padding-top: 30px;
+}
+#logo h5	 {
+	color:white;
+	
+}
+
+#contacts {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: ;
+	height: 100px;
+	width: 50%;
+	.background-color: blue;
+	float: right;
+}
+#contacts h1 {
+	padding-top: 5px;
+	color: #CFC5DA;
+}
+#contacts h2 {
+color: #180463;
+}
+/*flash*/
+#flash {
+	background-size: cover;
+	background-image: url("../images/1.jpg");
+	border: hidden;
+	height: 300px;
+	background-color: white;
+	width: 900px;
+}
+#flash h1 {
+	padding-top: 130px;
+}
+/*navigation*/
+#navbar {
+	opacity: 0.9;
+	background-color: black;
+	border: hidden;
+	height: 80px;
+}
+#navbar h1 {
+	padding-top: 20px;
+}
+/*main content*/
+#main-content {
+	background-color: none;
+	border: hidden;
+	height: 400px;
+}
+#main-content  {
+color: white;
+}
+#main-content ul li a {
+color: white;
+}
+#side-bar {
+	height: 400px;
+	width: 25%;
+	.background-color: yellow;
+	float: left;
+}
+#upper {
+	background-size: cover;
+    height: 200px;
+	width: 100%;
+	.background-color: green;
+}
+#upper ul {
+	text-align: center;
+	padding-left: 20px;
+	margin-left: px;
+	font-size: 15px;	
+}
+#upper li {
+list-style-type: none;
+text-align: left;
+}
+#upper li a{
+color: white;
+}
+
+#lower {
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+	background-color: none;
+}
+#lower ul {
+	
+	text-align: center;
+	padding-left: 20px;
+	margin-left: px;
+	font-size: 15px;	
+}
+#lower li {
+list-style-type: none;	
+text-align: left;
+}
+#lower h1 {
+	padding-top: 80px;
+}
+#lower li a{
+color: white;
+}
+#contents {
+	background-size: cover;
+	height: 400px;
+	width: 75%;
+	float: right;
+}
+#contents ul  {
+padding-top: 1%;
+padding-left: 60px;
+margin-left: 60px;
+}
+#contents p {
+color: white;
+}
+
+
+#contents ul li {
+padding: 3px;
+text-align: left;
+}
+/*footer*/
+#footer {
+	border: hidden;
+	height: 80px;
+	.background-color: pink;
+}
+#footer h4 {
+	color: white;
+	padding-top: 25px;
+}
+#icons {
+padding-left: 30px;
+}
+#icons li {
+display: inline-block;
+list-style-type: none;
+float: left;
+}
+#icons li img {
+padding: 10px 15px;
+border-radius: 1px;
+transition: 0.5s all;
+padding-top: 15px;
+height: 40px;
+width: 50px;
+}
+#icons li img:hover {
+margin-top:-8px;
+}
+#navbar ul{
+	margin:0;
+	height: 80px;
+	font-style: Impact;
+}
+#navbar ul li{
+	padding: 0 20 0 50px;
+	line-height: 80px;
+	display: inline-block;
+}
+#navbar ul li a{
+	padding: 0 76px;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+}
+#navbar ul li a:hover {
+color: black;
+background: white;
+text-transform: ;
+font-family: none;
+transition: 1s all;
+font-style: ;
+}
+#Kaori img {
+	padding-top: 50px;
+}
+#tsubaki img {
+	padding-top: 50px;
+}
+#ryota img {
+	padding-top: 50px;
+}
+#Char h1 {
+	color:white;
+}
+#Kousei p  {
+	color: white;
+}
+#Kaori p {
+	color: white;
+}
+#ryota p{
+	color: white;
+}
+#tsubaki p{
+	
+	color: white;
+}
+#Kousei h3 {
+	color: white;
+}
+#Kaori h3 {
+	color: white;
+}
+#ryota h3 {
+	color: white;
+}
+#tsubaki h3 {
+	color: white;
+}
+

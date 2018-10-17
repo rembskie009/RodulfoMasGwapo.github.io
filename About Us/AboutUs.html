@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<link rel="icon" type="image/ico" href="../images/88.jpg">
+	<link rel="stylesheet" href="AboutUs.css">
+<link href="skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
+	
+	<script src="js/jquery-1.6.3.min.js"></script>
+	<script src="js/jquery.skitter.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script>
+	$(document).ready(function() {
+		
+		var options = {};
+	
+		if (document.location.search) {
+			var array = document.location.search.split('=');
+			var param = array[0].replace('?', '');
+			var value = array[1];
+			
+			if (param == 'animation') {
+				options.animation = value;
+			}
+			else if (param == 'type_navigation') {
+				if (value == 'dots_preview') {
+					$('.border_box').css({'marginBottom': '40px'});
+					options['dots'] = true;
+					options['preview'] = true;
+				}
+				else {
+					options[value] = true;
+					if (value == 'dots') $('.border_box').css({'marginBottom': '40px'});
+				}
+			}
+		}
+		
+		$('.box_skitter_large').skitter(options);
+		
+		// Highlight
+		$('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+		
+	});
+	</script>
+	
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+		<img src="../images/d.png" alt="Contents" width="50%" height="100px" align="left">
+		<h4>Your Lie In April Fanbase</h4>
+		<h5>Because Music Speaks Louder Than Words</h5>
+		</div>
+		<div id="contacts">
+			<h1>Contact Us</h1>
+			<marquee><h2>Rodulfoabasolo666@yahoo.com</h2></marquee>
+		</div>
+	</div>
+	<div id="flash">
+		<div class="box_skitter box_skitter_large " style= " z-index:0;">
+				<ul>
+					<li><a href="#blindHeight"><img src="../IGOP/66.png" class="random"/></a></li>
+					<li><a href="#blindWidth"><img src="../IGOP/44.png"     class="random"/></a></li>
+					<li><a href="#blindHeight"><img src="../IGOP/33.png"  class="random"/></a></li>
+					<li><a href="#blindWidth"><img src="../IGOP/55.png"  class="random" /></a></li>
+					
+							</ul>
+			</div>
+	</div>
+	<div id="navbar">
+		<ul>
+		<li><a href="../Abasolo IGOP Html/abasolo.html">Home</a></li>
+		<li><a href="../About Us/AboutUs.html">About</a></li>
+		<li><a href="../About The Characters/AboutTheCharacters.html">About The Characters</a></li>
+		<li><a href="../Join Us/JoinUs.html">Join Us!</a></li>
+		
+		</ul>
+	</div>
+	<div id="main-content">
+		<div id="About Us">
+		<h1>About Your Lie In April</h1>
+		
+		<p>Your Lie in April is an anime television series adapted from the manga series of the same name by Naoshi Arakawa. The story follows a piano prodigy named Kosei Arima, who had become famous as a child musician after dominating many competitions. However, after his mother died, he could no longer play the piano. Two years later, Kosei meets a girl named Kaori Miyazono, who helps Kosei return to the world of music by showing that music should be played freely and without restrictions, unlike Kosei, who had played his music in a structured manner.<p><br>
+		The anime is directed by Kyōhei Ishiguro from A-1 Pictures and written by Takao Yoshioka. The series aired from October 9, 2014 to March 19, 2015 on Fuji TV's Noitamina block. Aniplex released the series in Japan on Blu-ray and DVD from February 25, 2015.The series is licensed by Aniplex of America within North America, who simulcasted the series on Aniplex Channel, Crunchyroll, Hulu and Viewster. Madman Entertainment licensed the series in Australia and New Zealand, who made the series available on AnimeLab. Anime Limited licensed the series in the United Kingdom and Ireland.</p></br>
+<video width="800px" height="450px" controls>
+<source src="../Videos/Your Lie In April Theatrical Trailer.mp4" type="video/mp4">
+</video>
+<h3><p>Watch At your Own Risk and Bring tissue before you watch this, why? just bring it you will need it eventually.</p></h3>
+</div>
+	<div id="footer">
+		<ul id="icons">
+			<li><a href="#" target="_blank"><img src="../Icons/f.png"></a></li>
+				<li><a href="#" target="_blank"><img src="../Icons/t.png"></a></li>
+					<li><a href="#" target="_blank"><img src="../Icons/i.png"></a></li>
+						<li><a href="#" target="_blank"><img src="../Icons/p.png"></a></li>
+				
+			<h4>© COPYRIGHT   RODULFO O. ABASOLO JR. 2018-2019</h4>
+	</div>
+
+
+</div>
+</div>
+</body>
+</html>

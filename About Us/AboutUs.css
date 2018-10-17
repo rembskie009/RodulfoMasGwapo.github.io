@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+body {
+	
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background: url("../Images/5n.png") center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;  
+}
+
+
+#wrapper {
+	height: 1300px;
+	width: 900px;
+	margin: 0 auto 0 auto;
+	border: hidden;
+}
+/*header*/
+#header {
+	height: 100px;
+	border: hidden;
+}
+#logo {
+	background-size: cover;
+	background-position: absolute;
+	height: 100px;
+	width: 50%;
+	.background-color: white;
+	float: left;
+}
+#logo h4	 {
+	color:black;
+	padding-top: 30px;
+}
+#logo h5	 {
+	color:black;
+	
+}
+
+#contacts {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: ;
+	height: 100px;
+	width: 50%;
+	.background-color: blue;
+	float: right;
+}
+#contacts h1 {
+	padding-top: 5px;
+	color: #CFC5DA;
+}
+#contacts h2 {
+color: #180463;
+}
+/*flash*/
+#flash {
+	background-size: cover;
+	background-image: url("../images/1.jpg");
+	border: hidden;
+	height: 300px;
+	background-color: white;
+	width: 900px;
+}
+#flash h1 {
+	padding-top: 130px;
+}
+/*navigation*/
+#navbar {
+	opacity: 0.9;
+	background-color: black;
+	border: hidden;
+	height: 80px;
+	
+}
+#navbar h1 {
+	padding-top: 20px;
+}
+/*main content*/
+#main-content {
+	
+	.background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	.background-image: url("../Images/5n.png");
+	border: hidden;
+	width: 900px;
+	height: 750px;
+}
+#main-content h1 {
+	color: black;
+}
+#main-content p  {
+	color: black;
+}
+#main-content video {
+	padding-top: px;
+}
+
+
+
+#contents {
+	background-size: cover;
+	height: 400px;
+	width: 75%;
+	float: right;
+}
+#contents ul  {
+padding-top: 1%;
+padding-left: 60px;
+margin-left: 60px;
+}
+#contents p {
+color: white;
+}
+
+
+#contents ul li {
+padding: 3px;
+text-align: left;
+}
+/*footer*/
+#footer {
+	height: 80px;
+	background-color:;
+}
+#footer h4 {
+	color: black;
+	padding-top: 25px;
+}
+#icons {
+padding-top: 50px;
+padding-left: 30px;
+}
+#icons li {
+display: inline-block;
+list-style-type: none;
+float: left;
+}
+#icons li img {
+padding: 10px 15px;
+border-radius: 1px;
+transition: 0.5s all;
+padding-top: 15px;
+height: 40px;
+width: 50px;
+}
+#icons li img:hover {
+margin-top:-8px;
+}
+#navbar ul{
+	margin:0;
+	height: 80px;
+	font-style: Impact;
+}
+#navbar ul li{
+	padding: 0 20 0 50px;
+	line-height: 80px;
+	display: inline-block;
+}
+#navbar ul li a{
+	padding: 0 76px;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+}
+#navbar ul li a:hover {
+color: black;
+background: white;
+text-transform: ;
+font-family: none;
+transition: 1s all;
+font-style: ;
+}
